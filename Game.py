@@ -66,7 +66,7 @@ carroBranco = pygame.image.load('lib/sprites/carroBranco.png')
 font = pygame.font.SysFont('arial black', 30)
 texto = font.render(f'Tempo: {tempo} S', True, (255, 255, 255))
 PosTexto = texto.get_rect()
-PosTexto.center = (80, 50)
+PosTexto.center = (100, 50)
 
 # cria o texto Game Over
 fontOver = pygame.font.SysFont('arial black', 80)
